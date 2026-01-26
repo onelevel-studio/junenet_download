@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>JuneNet – Navigateur Web</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <style>
+        * {
+            box-sizing: border-box;
+            font-family: system-ui, -apple-system, BlinkMacSystemFont, sans-serif;
+        }
+
+        body {
+            margin: 0;
+            background: linear-gradient(120deg, #1e1e2f, #2c2c44);
+            color: #ffffff;
+            min-height: 100vh;
+        }
+
+        header {
+            text-align: center;
+            padding: 60px 20px;
+        }
+
+        header h1 {
+            font-size: 3rem;
+            margin-bottom: 10px;
+        }
+
+        header p {
+            font-size: 1.2rem;
+            opacity: 0.85;
+        }
+
+        main {
+            display: flex;
+            justify-content: center;
+            padding: 20px;
+        }
+
+        .card {
+            background: #ffffff;
+            color: #333;
+            max-width: 500px;
+            width: 100%;
+            border-radius: 16px;
+            padding: 30px;
+            box-shadow: 0 20px 40px rgba(0, 0, 0, 0.3);
+        }
+
+        .card h2 {
+            margin-top: 0;
+        }
+
+        .card ul {
+            padding-left: 20px;
+        }
+
+        .card li {
+            margin: 6px 0;
+        }
+
+        .download-btn {
+            display: block;
+            margin: 30px 0 10px;
+            text-align: center;
+            padding: 15px;
+            background: #4f46e5;
+            color: white;
+            text-decoration: none;
+            font-size: 1.1rem;
+            border-radius: 12px;
+            transition: transform 0.15s ease, box-shadow 0.15s ease;
+        }
+
+        .download-btn:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 10px 20px rgba(79, 70, 229, 0.4);
+        }
+
+        .info {
+            font-size: 0.9rem;
+            opacity: 0.7;
+            text-align: center;
+        }
+
+        footer {
+            text-align: center;
+            padding: 30px;
+            font-size: 0.9rem;
+            opacity: 0.7;
+        }
+    </style>
+</head>
+
+<body>
+
+<header>
+    <h1>JuneNet</h1>
+    <p>Un navigateur léger, rapide et personnel</p>
+</header>
+
+<main>
+    <section class="card">
+        <h2>🚀 Télécharger JuneNet</h2>
+        <p>
+            JuneNet est un navigateur basé sur PyQt6 et WebEngine,
+            conçu pour être simple, rapide et moderne.
+        </p>
+
+        <ul>
+            <li>✔ Onglets multiples</li>
+            <li>✔ Historique intégré</li>
+            <li>✔ Téléchargements pris en charge</li>
+            <li>✔ Profil utilisateur persistant</li>
+        </ul>
+
+        <a class="download-btn" href="JuneNet.exe" download>
+            ⬇ Télécharger pour Windows
+        </a>
+
+        <p class="info">
+            Version Windows • Fichier .exe • ~200 Mo
+        </p>
+    </section>
+</main>
+
+<footer>
+    <p>
+        © 2026 – JuneNet • Créé par
+        <a href="https://moi14212869.github.io/onelevel"
+           target="_blank"
+           style="color: #fff; text-decoration: underline;">
+           oneLevel studio
+        </a>
+    </p>
+</footer>
+
+
+</body>
+</html>
