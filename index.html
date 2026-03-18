@@ -142,9 +142,9 @@ let junenet = parseInt(localStorage.getItem("junenet")) || 0;
 let score = parseInt(localStorage.getItem("score")) || 0;
 function pts() {
     if (junenet === 0) {
+        junenet = 1;
         score += 1000;
         localStorage.setItem("score", String(score));
-        junenet = 1;
         localStorage.setItem("junenet", String(junenet));
     }
 }
