@@ -117,7 +117,7 @@
             <li>✔ Profil utilisateur persistant</li>
         </ul>
 
-        <a class="download-btn" onclick="pts()" href="https://github.com/Moi14212869/junenet_download/releases/download/v1.0.0/JuneNet_Setup.exe" download>
+        <a class="download-btn" href="https://github.com/Moi14212869/junenet_download/releases/download/v1.0.0/JuneNet_Setup.exe" download>
             ⬇ Télécharger pour Windows
         </a>
 
@@ -129,7 +129,7 @@
 
 <footer>
     <p>
-        © 2026 – JuneNet • Créé par
+        © <span id="year">2026</span> – JuneNet • Créé par
         <a href="https://moi14212869.github.io/onelevel"
            target="_blank"
            style="color: #fff; text-decoration: underline;">
@@ -137,5 +137,8 @@
         </a>
     </p>
 </footer>
+<script>
+    document.getElementById('year').textContent = new Date().getFullYear();
+</script>
 </body>
 </html>
